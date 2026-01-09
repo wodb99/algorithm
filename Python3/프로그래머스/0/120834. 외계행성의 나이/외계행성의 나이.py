@@ -1,6 +1,6 @@
 def solution(age):
     answer = ''
-    temp = list('abcdefghijklmnopqrstuvwxyx')
+    temp = list('abcdefghij')
     idx = list(str(age))
     for i in idx:
         answer += temp[int(i)]
