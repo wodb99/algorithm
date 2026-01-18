@@ -12,3 +12,10 @@ def solution(spell, dic):
         else:
             answer = 2
     return answer
+
+
+# def solution(spell, dic):
+#     for d in dic:
+#         if sorted(d) == sorted(spell):  # sorted의 결과는 리스트 형태라서 비교 가능
+#             return 1
+#     return 2
