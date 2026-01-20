@@ -8,8 +8,8 @@ def solution(dots):
         x_list.append(x)
         y_list.append(y)
         
-    width = max(1, max(x_list) - min(x_list))
-    height = max(1, max(y_list) - min(y_list))
+    width = max(x_list) - min(x_list)
+    height = max(y_list) - min(y_list)
     
     answer = width * height
     return answer
