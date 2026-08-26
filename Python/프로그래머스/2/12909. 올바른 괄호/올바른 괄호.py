@@ -4,8 +4,7 @@ def solution(s):
     
     for i in s:
         if i == '(':
-            stack.append('(')
-            
+            stack.append(i)
         else:
             if stack == []:
                 return False
@@ -14,5 +13,5 @@ def solution(s):
                 
     if stack != []:
         return False
-    
+
     return True
